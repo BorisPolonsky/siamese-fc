@@ -1,4 +1,4 @@
-function run_tracker(video, visualization)
+function run_tracker(video, visualization, gpus)
 % RUN_TRACKER  is the external function of the tracker - does initialization and calls tracker.m
     startup;
     %% Parameters that should have no effect on the result.
